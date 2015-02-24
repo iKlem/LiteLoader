@@ -5,7 +5,7 @@
 
 This loader is licensed under the MIT License (See LICENSE for more information)
 
-If you would like to discuss the loader, please visit the [Facepunch thread]().
+If you would like to discuss the loader, please visit the [Facepunch thread](http://facepunch.com/showthread.php?t=1452909&p=47205745#post47205745).
 
 If you would like to donate to support the developer, please click this [PayPal link](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WAAU3DKXJXFR6).
 
