@@ -1,0 +1,118 @@
+/*
+*  This stylesheet can be modified, but you have to know the css language.
+*
+*  @author: iKlem <iklem.d@gmail.com>
+*  @version: 1.0
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* MAIN CSS */
+body {
+  opacity: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #000000;
+  background-image: url("/img/bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #E8EAF6;
+  overflow: hidden;
+}
+#noBorder {
+  border:0px;
+}
+#container {
+  margin-top: 15%;
+}
+#versionNo {
+  position: relative;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* --- */
+
+/* CENTER PANEL */
+#centerPanel {
+  position: relative;
+  z-index: 2;
+  width: 55%;
+  margin: auto;
+  background-color: #FFF;
+  box-shadow: 0 4px 2px -1px #626262;
+  border-color: #bebebe;
+  border-radius: 3px;
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+  font-size: 2.5em;
+  color: white;
+  background-color: #3F51B5;
+  border-radius: 3px 3px 0 0;
+}
+#stateLoad,  #gameMode, #map, .imgLeft {
+  margin: 0;
+  height: 60px;
+  padding: 5px;
+  border-bottom: 1px solid #b8b8b8;
+}
+.imgLeft {
+  float: left;
+  width: 90px;
+  border-right: 1px solid #b8b8b8;
+}
+.littleIMG {
+  width: 60px;
+}
+#stateLoad, #nbFiles {
+  font-weight: bold;
+  line-height: 40px;
+}
+#progressInfo, #progressInfoWS {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+}
+#nbFiles {
+  border: none;
+  height: 60px;
+}
+/* --- */
+
+/* CSS ANIMATION */
+.walk {
+  -webkit-animation-name: walk;
+  -webkit-animation-duration: 5.0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-perspective: 6000px;
+  text-align: center;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 3px;
+  display: inline-block;
+  border: 2px solid #999;
+}
+
+@-webkit-keyframes walk {
+  0%
+  {
+    -webkit-transform: rotateZ(0deg);
+  }
+
+  50%
+  {
+    -webkit-transform: rotateZ(180deg);
+  }
+
+  100%
+  {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
