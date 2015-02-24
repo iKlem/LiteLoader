@@ -11,7 +11,7 @@ If you would like to donate to support the developer, please click this [PayPal 
 
 ---
 ## Current version: 1.0
-## No download
+## [Download latest release](https://github.com/iKlem/LiteLoader/releases/latest)
 ## No Demo
 
 
