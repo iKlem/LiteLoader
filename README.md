@@ -43,7 +43,7 @@ If you would like to donate to support the developer, please click this [PayPal 
 
 ---
 ## About This Project
-This project is for the administrators of Garry's mod server who wish to have a loading screen with small informations and without superficial features.
+This project is for owners of Garry's mod server who wish to have a loading screen with small informations and without superficial features.
 
 You can donate to me if you would like to support me in my work [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WAAU3DKXJXFR6). ;)
 
