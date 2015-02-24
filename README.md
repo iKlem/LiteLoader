@@ -26,7 +26,7 @@ If you would like to donate to support the developer, please click this [PayPal 
 
 
 ---
-## Installation (No wiki page for the moment)
+## Installation
 * Add all these files to your webserver.
 * In your Garry's Mod server, go to your cfg folder, and edit "server.cfg"
 * Add this line `sv_loadingurl "http://yourwebserver.something/folder_if_you_have_one"`
